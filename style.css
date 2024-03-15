@@ -20,8 +20,24 @@ h3 {
 
 li {
     color: #dddddd ;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.ingredients{
-    font-family: 'Courier New', Courier, monospace;
+.description {
+    color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ingredients {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.method {
+    font-size: 18px;
+}
+
+#recipe-link {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: bisque;
 }
