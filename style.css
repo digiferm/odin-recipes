@@ -3,6 +3,10 @@ html {
     background-color: black
 }
 
+* {
+    outline: 2px solid red;
+}
+
 h1 {
     color: purple;
     font-weight: bolder;
@@ -19,25 +23,72 @@ h3 {
 }
 
 li {
-    color: #dddddd ;
+    color: black ;
     font-family: 'Courier New', Courier, monospace;
 }
 
+.site-title {
+    padding: 10px;
+    margin: 8px;
+    margin-left: 40px;
+}
+
+.page-title {
+    padding: 10px;
+    margin: 8px;
+    margin-left: 40px;    
+}
 .description {
     color: beige;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .ingredients {
+    width: 400px;
     font-size: 20px;
     font-weight: 600;
 }
 
 .method {
     font-size: 18px;
+    color: antiquewhite;
+    background-color: darkgrey;
 }
 
 #recipe-link {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: bisque;
 }
+
+.card {
+    background: #fff;
+    margin: 16px auto;
+    margin-left: 40px       ;
+    padding: 8px;
+    width: 600px;
+}
+
+.list-title {
+    padding: 10px;
+    margin: 8px;
+    margin-left: 40px;
+  }
+
+.list-entries {
+    display: inline-block;
+    
+    padding: 1px;
+    margin: 10px;
+    background-color: #c1b7ff;
+}
+
+.list-link {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding-top: 55px;
+    padding-bottom: auto;
+    margin: 10px;
+}
+
